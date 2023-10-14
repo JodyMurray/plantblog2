@@ -25,8 +25,10 @@ SECRET_KEY = 'django-insecure-zppgep)*!@x8qgcacuh+h0%x*@t1#zxv9j4@ck+laz)1$zssv_
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = [
+    '8000-jodymurray-plantblog2-8l66j5cvwj4.ws-eu105.gitpod.io', '*']
 
+CSRF_TRUSTED_ORIGINS = ['https://8000-jodymurray-plantblog2-8l66j5cvwj4.ws-eu105.gitpod.io']
 
 # Application definition
 
